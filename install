@@ -1,0 +1,24 @@
+#Update and upgrade
+sudo apt-get update sudo apt-get upgrade
+
+#Install packages
+sudo apt-get -y build-essentials gcc g++ cmake git vim geany pidgin vlc curl wget filezilla
+
+#Adding repositories
+sudo add-apt-repository ppa:webupd8team/java
+sudo add-apt-repository ppa:me-davidsansome/clementine
+sudo apt-add-repository -y ppa:rael-gc/scudcloud
+
+
+#Java
+sudo apt-get install oracle-java8-installer
+sudo apt-get install oracle-java8-set-default
+
+#Youtube-dl
+sudo curl https://yt-dl.org/downloads/2015.03.28/youtube-dl -o /usr/local/bin/youtube-dl
+sudo chmod a+x /usr/local/bin/youtube-dl
+
+
+
+sudo apt-get install clementine
+
